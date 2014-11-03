@@ -97,6 +97,7 @@ var verifyClass = function(constructor) {
         }
 
         it('has a .prototype.constructor property that points back to the constructor itself', function() {
+          // debugger
           expect(constructor.prototype.constructor).to.equal(constructor);
         });
 
